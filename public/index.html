@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>computer visions</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main id="app">
+      <section id="content">
+        <div id="intro">Grant an image and enter a dialogue</div>
+          <div id="haiku"></div>
+          <label for="file-upload" id="custom-file-upload">
+            Upload
+          </label>
+          <input id="file-upload" type="file" accept="image/*"/>
+        </section>
+        <canvas id="imageCanvas" style="display: none;"></canvas>
+        <canvas id="outputCanvas" class="hidden"></canvas>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

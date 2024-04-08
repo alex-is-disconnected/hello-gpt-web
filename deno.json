@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "start": "deno run --allow-env --allow-net --allow-read=../.. webapp.js",
+    "dev": "deno run --allow-env --allow-net --allow-sys --allow-read=../.. --watch --no-clear-screen webapp.js"
+  }
+}
